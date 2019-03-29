@@ -1,5 +1,4 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 /*
 	Eventually by HTML5 UP
@@ -23,6 +22,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: "Marr Sans Regular", sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -316,9 +316,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", sans-serif;
+		font-family: "Marr Sans Regular", sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: normal;
 		letter-spacing: -0.01em;
 		line-height: 1.65em;
 	}
@@ -405,6 +405,7 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-family: "Marr Sans Medium", sans-serif;
 		font-size: 2.5em;
 		line-height: 1.25em;
 	}
@@ -1061,7 +1062,7 @@ input, select, textarea {
 
 /* Signup Form */
 
-	#signup-form {
+	#signup-form, #mc-embedded-subscribe-form {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1069,40 +1070,40 @@ input, select, textarea {
 		position: relative;
 	}
 
-		#signup-form input[type="text"],
-		#signup-form input[type="password"],
-		#signup-form input[type="email"] {
+		#signup-form, #mc-embedded-subscribe-form input[type="text"],
+		#signup-form, #mc-embedded-subscribe-form input[type="password"],
+		#signup-form, #mc-embedded-subscribe-form input[type="email"] {
 			width: 18em;
 		}
 
-		#signup-form > * {
+		#signup-form, #mc-embedded-subscribe-form > * {
 			margin: 0 0 0 1em;
 		}
 
-		#signup-form > :first-child {
+		#signup-form, #mc-embedded-subscribe-form > :first-child {
 			margin: 0 0 0 0;
 		}
 
 		@media screen and (max-width: 480px) {
 
-			#signup-form {
+			#signup-form, #mc-embedded-subscribe-form {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
 			}
 
-				#signup-form input[type="type"],
-				#signup-form input[type="password"],
-				#signup-form input[type="email"] {
+				#signup-form, #mc-embedded-subscribe-form input[type="type"],
+				#signup-form, #mc-embedded-subscribe-form input[type="password"],
+				#signup-form, #mc-embedded-subscribe-form input[type="email"] {
 					width: 100%;
 				}
 
-				#signup-form > * {
+				#signup-form, #mc-embedded-subscribe-form > * {
 					margin: 1.25em 0 0 0;
 				}
 
-				#signup-form .message {
+				#signup-form, #mc-embedded-subscribe-form .message {
 					bottom: -1.5em;
 					font-size: 0.9em;
 					height: 1em;
