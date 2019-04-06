@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: "Synthese Book", sans-serif;
+	font-family: "Marr Sans Regular", sans-serif;
 	vertical-align: baseline;
 }
 
@@ -317,7 +317,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Synthese Book", sans-serif;
+		font-family: "Marr Sans Regular", sans-serif;
 		font-size: 16pt;
 		font-weight: normal;
 		letter-spacing: -0.01em;
@@ -406,7 +406,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-family: "Synthese Regular", sans-serif;
+		font-family: "Marr Sans Medium", sans-serif;
 		font-size: 2.5em;
 		line-height: 1.25em;
 	}
