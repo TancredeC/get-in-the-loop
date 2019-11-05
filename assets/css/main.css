@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.618;
 }
 
 ol, ul {
@@ -321,7 +321,7 @@ input, select, textarea {
 		font-size: 16pt;
 		font-weight: normal;
 		letter-spacing: -0.01em;
-		line-height: 1.65em;
+		line-height: 1.618em;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -818,7 +818,7 @@ input, select, textarea {
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #0048ff;
 		}
 
 	select {
@@ -1034,7 +1034,7 @@ input, select, textarea {
 
 	#header p {
 		font-size: 1.35em;
-		line-height: 1.75em;
+		line-height: 1.618em;
 	}
 
 	#header a {
