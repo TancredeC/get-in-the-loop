@@ -1178,7 +1178,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				bottom: 2em;
+				bottom: 0.5em;
 				left: 2em;
 			}
 
